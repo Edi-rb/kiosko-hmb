@@ -1,0 +1,57 @@
+$sidebar : '.ki-sidebar';
+
+#{$sidebar}{
+	padding: 1rem;
+	&__head {
+		text-align: center;
+		.ik-camera {
+			text-align: center;
+			background: gray;
+			padding: 1rem;
+			display: inline-block;
+			border-radius: .5rem;
+		}
+		.ki-identificar {
+			display: block;
+			margin: 1rem auto;
+			width: 100%;
+		}
+	}
+	&__list {
+		width: 100%;
+		.item-menu {
+			padding: 1.8rem 2.2rem;
+			background-color: transparent;
+			color: $color-secondary;
+			font-size: 1.4rem;
+			font-weight: 600;
+			// border-bottom: 1px solid $color-secondary;
+			border: none;
+			border-radius: 0;
+			text-align: left;
+			&:first-child {
+				color: $color-primary;
+				// &:hover,
+				// &:active {
+					
+				// }
+			}
+			&.item-border {
+				border-bottom: 1px solid $color-secondary;
+				border-radius: 0 !important;
+			}
+			&:hover,
+			&:active {
+				background-color: $color-secondary;
+				color:$color-white;
+				&:first-child {
+					background-color: transparent;
+					color: $color-secondary;
+				}
+			}
+			.ico-btn {
+
+			}
+		}
+	}
+}

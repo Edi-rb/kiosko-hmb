@@ -1,0 +1,71 @@
+$cambia-bebida: '.cambiar-tipoBebida';
+
+
+#{$cambia-bebida}{
+	width: 80%;
+    margin: 0 auto;
+    max-width: 100%;
+	&__opciones {
+		label {
+			color: #4c4c4c;
+			font-size: 1.1rem;
+			font-weight: 600;
+		}
+	}
+	&__radio {
+		display: inline-block;
+		div {
+		  display: inline-block;
+		}
+		input[type="checkbox"] {
+		  display: none;
+		}
+		input[type="checkbox"] + label {
+		  color: #333;
+		  font-family: Arial, sans-serif;
+		  font-size: 14px;
+		}
+		input[type="checkbox"] + label span {
+		  display: inline-block;
+		  width: 40px;
+		  height: 40px;
+		  margin: -1px 4px 0 0;
+		  vertical-align: middle;
+		  cursor: pointer;
+		  border-radius: 10px;
+		  border: 2px solid #FFFFFF;
+		  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+		  background-repeat: no-repeat;
+		  background-position: center;
+		  text-align: center;
+		  line-height: 44px;
+		}
+		input[type="checkbox"] + label span img {
+		  opacity: 0;
+		  transition: all .3s ease;
+		}
+		input[type="checkbox"] + label span {
+		  background-color: #cdcdcd;
+		  color: #f1f2f2;
+		  line-height: 36px;
+		}
+		// input[type="radio"]#color-2 + label span {
+		//   background-color: #3498db;
+		// }
+		// input[type="radio"]#color-3 + label span {
+		//   background-color: #f1c40f;
+		// }
+		// input[type="radio"]#color-4 + label span {
+		//   background-color: #e74c3c;
+		// }
+		input[type="checkbox"]:checked + label span {
+		  opacity: 1;
+		  // background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg) center center no-repeat;
+		  width: 40px;
+		  height: 40px;
+		  display: inline-block;
+		  background-color: $color-primary;
+		  color: #fff;
+		}		
+	}
+}

@@ -1,0 +1,26 @@
+$cambia-combo : '.cambio-combo';
+
+#{$cambia-combo}{
+	padding: 0;
+	
+	&__opcion {
+		.icon-combo {
+			height: 40px;
+			width: 40px;
+			margin: .5rem;
+		}
+		.combo-box {
+			padding: 0;
+			margin-bottom: 1rem;
+			text-align: right;
+		}
+		.combo-info {
+			p {
+				font-weight: 400;
+			}	
+			.ki-title {
+				font-weight: 700;
+			}		
+		}
+	}
+}

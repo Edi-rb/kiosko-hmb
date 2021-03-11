@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Caliburguer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- inject css -->
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="ki-header d-none">
+            
+        </header>
+
+        <section class="ki-container">
+            <div class="container-fluid h-100">
+                <div class="row h-100">
+                    <div id="ki-sidebar-home" class="col-lg-3 ki-container__sidebar ki-sidebar">
+                        <div class="ki-sidebar__head">
+                            <div class="ik-camera">
+                                <img src="assets/images/icons/iconfinder_lens.svg" class="ico-cam" alt="...">
+                            </div>
+
+                            <button class="ki-btn ki-btn__primary btn--medium ki-identificar" data-toggle="modal" data-target="#identificaCliente">
+                                <i class="fas fa-camera mr-2"></i> Identificarme
+                            </button>
+                        </div>
+                        <div class="ki-sidebar__list btn-group-vertical">
+                            <button type="button" class="btn btn-secondary item-menu item-border mi-hbg load-ki" value="nuestro-menu.html">NUESTRO MENÚ</button>
+
+                            <button type="button" class="btn btn-secondary item-menu load-ki" value="pedidos.html">INICIAR SESIÓN</button>
+                            <button type="button" class="btn btn-secondary item-menu mt-2" value="">REGISTRARSE</button>
+
+                            <div class="divider mt-1">
+                                Iniciar con :
+                            </div>
+
+                            <button type="button" class="btn btn-secondary btn--face item-menu mt-2" value=""><i class="fab fa-facebook-f mr-2"></i>Facebook</button>
+
+                            <button type="button" class="btn btn-secondary btn--twi item-menu mt-2" value=""><i class="fab fa-twitter mr-2"></i>Twiter</button>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-9 p-0 ki-container__content">
+                        <div class="ki-promotions">
+                           <div class="row">
+                                <div class="col-xl-6 col-lg-12 ki-promotions__banner ki-banner">
+                                    
+                                    <img src="assets/images/home/g5336.png" class="ki-banner__brand" alt="...">
+
+                                    <h2 class="ki-banner__title">Ingredientes siempre frescos para brindarte una experiencia única</h2>
+
+                                    <h3 class="ki-banner__subtitle">Comienza la experiencia Caliburguer!</h3>
+                                    
+
+                                    <button class="ki-btn ki-btn__primary mi-hbg load-ki" value="nuestro-menu.html">Comenzar Mi Orden</button>
+
+                                </div>
+                                <div class="col-xl-6 col-lg-12 ki-promotions__promotions pl-0 ">
+                                    <div id="catalogo-banner" class="carousel slide fade-in-fwd" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/home/promos/p1.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/home/promos/p2.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/home/promos/p3.png" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#catalogo-banner" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#catalogo-banner" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div id="cat-seleccion" class="row ki-premenu row-eq-height mt-3">
+                                <div class="col-lg-4">
+                                    <div class="ki-premenu__item ki-preitem mi-hbg" data-categoriap="combos">
+                                        <div class="ki-bg--yellow">
+                                            <div class="ki-preitem__name">
+                                                Combos
+                                            </div>
+                                            <div class="ki-preitem__img">
+                                                <div class="ki-pic" style="background-image: url('assets/images/menu/opciones-menu/c.jpg');"></div>
+                                            </div>
+                                            <div class="ki-preitem__description">
+                                                Hamburguesa + Papas + Refresco
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="ki-premenu__item ki-preitem mi-hbg" data-categoriap="hbgs">
+                                        <div class="ki-bg--yellow">
+                                            <div class="ki-preitem__name">
+                                                Caliburguers
+                                            </div>
+                                            <div class="ki-preitem__img">
+                                                <div class="ki-pic" style="background-image: url('assets/images/menu/opciones-menu/h.jpg');"></div>
+                                                
+                                            </div>
+                                            <div class="ki-preitem__description">
+                                                La calidad es nuestra receta.
+                                            </div>   
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="ki-premenu__item ki-preitem mi-hbg" data-categoriap="shakes">
+                                        <div class="ki-bg--yellow">
+                                            <div class="ki-preitem__name">
+                                                Shakes
+                                            </div>
+                                            <div class="ki-preitem__img">
+                                                <div class="ki-pic" style="background-image: url('assets/images/menu/opciones-menu/b.jpg');"></div>
+                                            </div>
+                                            <div class="ki-preitem__description">
+                                                Refrescantes Shakes de tu sabor favorito!
+                                            </div>    
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        
+
+        <!-- Modal reconocimiento facial -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#identificaCliente">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade modal-identifica" id="identificaCliente" tabindex="-1" role="dialog" aria-labelledby="identificaClienteTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content modal-identifica__content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="identificaClienteTitle">
+                    Sonríe a la cámara y haz tu pedido de manera fácil!
+                    <img src="assets/images/icons/smile-ico.png" class="img-fluid icon-smile" alt="Sonrie a la experiencia Caliburguer">
+                </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body ki-bg--login">
+
+                <div class="container-fluid ki-login">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-lg-12">
+                            <div class="ki-login__box">
+                                <!-- <h1>Bienvenidos a Caliburguer</h1> -->
+                                <img src="assets/images/icons/identifica-rostro.svg" class="img-fluid ki-login__user" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="ki-btn ki-btn__primary btn--medium btn--dfl mx-1" data-dismiss="modal">Ahora No</button>
+                <button id="identificame" type="button" class="ki-btn ki-btn__primary btn--medium mx-1">Sí, Identificarme</button>
+            </div>
+        </div>
+    </div>
+</div>        
+        <!-- inject js -->
+        <script src="js/bundle.js"></script>
+    </body>
+</html>

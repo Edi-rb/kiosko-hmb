@@ -1,0 +1,12 @@
+$car-menu : '.ki-carmenu';
+
+#{$car-menu}{
+	border-top-left-radius: 32px;
+	position: fixed;
+	bottom: 0; 	
+	right: 0;
+	// height: 64px;
+	background-color: $purple-ki;
+	padding: 1.4rem 1rem;
+	z-index: 2;
+}

@@ -1,0 +1,14 @@
+$container : '.ki-container';
+
+#{$container}{
+	height: 100%;
+	&__sidebar {
+		background-color: #fff;
+	}
+}
+
+.mi-hbg {
+    cursor: url("../assets/images/icons/hbg.png") 10 15,
+           // url("http://miweb.com/imagenes/mi-otro-cursor.png") 2 24,
+           pointer !important;
+}

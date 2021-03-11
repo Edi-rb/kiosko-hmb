@@ -1,0 +1,40 @@
+$datatable: '.ki-datatable';
+
+#{$datatable}{
+
+	
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(251, 224, 24,.7);
+}
+
+.table {
+	label {
+		color: #625f5f;
+	}
+	thead {
+		background-color: #efefef;
+		th {
+			color: $purple-ki;
+		}
+	}
+	td, 
+	th {
+		padding: .4rem;
+		font-size: .94rem;
+	}
+	.page-item{
+		.page-link {
+			color: $purple-ki;
+			border-color: $purple-ki;
+		}
+		&.active {
+			.page-link {
+				background-color: $purple-ki;
+				border-color: $purple-ki;
+				color: #fff;
+			}
+		}
+	}
+}

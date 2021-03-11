@@ -1,0 +1,39 @@
+$promos : '.ki-promotions';
+
+#{$promos}{
+	padding: 1.5rem;
+	&__banner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	&__promotions {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.ki-banner {
+	&__title {
+		// font-family:'Frutiger Bold';
+		// font-weight:normal;
+		font: {
+			weight: 700;
+		}
+	}
+	&__subtitle {
+		font: {
+			weight: 600;
+		}
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	&__brand{
+		display: block;
+		width: 280px;
+		margin: 0 auto 1.5rem;
+	}
+
+}
+

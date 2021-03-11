@@ -1,0 +1,240 @@
+
+<header class="ki-header down-slide">
+    <div class="ki-header--menu ki-header--degblue">
+        <div class="row h-100">
+            <div class="col-lg-2 col-md-2 text-center py-2">                        
+                <a href="/" id="ir-numenu" class="ki-menuback" title="Ir a NUestro Menú">
+                    <i class="fas fa-arrow-alt-circle-left fa-3x"></i>
+                </a>
+                
+            </div>
+            <div class="col-lg-9 col-md-9 ki-header__menucat">
+                <nav id="catOpcionesMenu"i class="nav ki-catsmenu" >
+                    <a class="nav-link ki-catsmenu__opcion active kicombo" href="#" data-catki="kicombo">Combos</a>
+                    <a class="nav-link ki-catsmenu__opcion kibebidas" href="#" data-catki="kibebidas">Bebidas</a>
+                    <a class="nav-link ki-catsmenu__opcion kicalibur" href="#" data-catki="kicalibur">Caliburguers</a>
+                    <a class="nav-link ki-catsmenu__opcion kiotros" href="#" data-catki="kiotros">Otros</a>
+                </nav>
+            </div>
+            <div class="col-lg-1 col-md-1">
+                <nav class="navbar navbar-dark ki-navmenu">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCaliMenu" aria-controls="navbarCaliMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </nav>                         
+            </div>
+        </div>    
+    </div>            
+</header>
+
+<div class="collapse navbar-collapse ki-navmenu-side right-slide" id="navbarCaliMenu">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navurl" href="nuestro-menu.html">Nuestro Menú</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navurl" href="#">Mis Pedidos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navurl" href="pedidos.html">Mi Perfil</a>
+        </li>
+    </ul>
+</div> 
+
+<section class="ki-productosin py-4">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 pl-0 ki-productosin__card">
+                <div class="ki-infoproducto shadow ki-productos__item slide-leftbottom">
+                    <div class="ki-infoproducto__head">
+                        <span class="prod-nombre">CALIBURGUERS</span>
+
+                        <span class="prod-precio">$85.00</span>
+                    </div>
+                    <div class="ki-productosin__image ">
+                        <img src="assets/images/menu/opciones-menu/hamburguesas/c-bbq.png" class="img-fluid">
+                    </div>
+
+                    <div class="box-rombo">
+                        <div class="rombo"></div>
+                    </div>   
+                </div>
+                
+                <div class="ki-productosin__favorito">
+                    <div class="estrellas mb-3">
+                        <i class="fas fa-star fa-2x"></i>
+                        <i class="fas fa-star fa-2x"></i>
+                        <i class="fas fa-star fa-2x"></i>
+                        <i class="fas fa-star fa-2x"></i>
+                        <i class="far fa-star fa-2x"></i>
+                    </div>
+
+                    <button class="ki-btn ki-btn__primary btn--medium"><i class="fas fa-heart mr-3"></i>Agregar a favoritos</button>
+                </div>
+			</div>
+			<div class="col-lg-6 pr-0">
+                <div class="ki-productosin__detalles ki-detallesprod slide-rightbottom">
+                    <div class="ki-detallesprod__titulo">
+                        CHIPOTLE BBQ CHICKEN BURGER
+                    </div>
+                    <p>Hamburguesa de pechuga de pollo marinada y bañada en nuestra salsa casera de BQQ-Chipotle, pepinillos, jitomate fresco, crujientes tiras de tocino y cebolla.</p>
+
+                    <div class="ki-detallesprod__seleccion ki-productosin">
+                        <div class="ki-productosin__content row m-0">
+                            
+                            <div class="col-lg-12 ki-productosin__ingreds">
+                                <!-- <img src="assets/images/menu/opciones-menu/bebidas/bebida.png" class="img-fluid"> -->
+
+                                <button class="ki-btn ki-btn__primary btn--medium" data-toggle="modal" data-target="#ingredsExtra">Agregar más Ingredientes</button>
+
+                                <div class="ingredientes-selec">
+                                    CARNE, TOCINO, ADEREZO BBQ
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 pedido-data">
+                                <hr class="bg-white">
+                                <div class="">
+                                    <label for="exampleFormControlTextarea1">Agregar detalles al pedido</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>    
+                                </div>    
+                            </div>
+
+                            <div class="col-xl-6 col-lg-12 pedido-data">
+                                <span class="pedido-data__item">Total: $85.00</span>
+                                
+                            </div>
+                            <div class="col-xl-6 col-lg-12 pedido-data">
+                                <label class="pedido-data__item">Cantidad: </label>
+                                
+                                <div class="pedido-data__cantidad">
+                                    <span class="input-number-decrement"><i class="fas fa-minus"></i></span><input class="input-number" type="text" value="1" min="0" max="10"><span class="input-number-increment"><i class="fas fa-plus"></i></span>    
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="col-lg-12 text-right mt-4">
+                                <button class="ki-btn ki-btn__primary btn--medium w-100">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade modal-cambiar modal-inds-extra" id="ingredsExtra" tabindex="-1" role="dialog" aria-labelledby="ingredsExtraLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-cambiar__header">
+        <h5 class="modal-title" id="ingredsExtraLabel">Agrega más ingredientes a tu hamburguesa</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-cambiar__body">
+
+        <div class="container pb-5 modal-inds-extra__list col-lg-10">
+            <table class="table ingredientes-extra">
+                <thead>
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Accion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Pollo</th>
+                        <td>$20.00</td>
+                        <td>
+                            <div class="check-ico">
+                                <input type="checkbox" />
+                                <span></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Carne</th>
+                        <td>$20.00</td>
+                        <td>
+                            <div class="check-ico">
+                                <input type="checkbox" />
+                                <span></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tocino</th>
+                        <td>$15.00</td>
+                        <td>
+                            <div class="check-ico">
+                                <input type="checkbox" />
+                                <span></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Queso</th>
+                        <td>$15.00</td>
+                        <td>
+                            <div class="check-ico">
+                                <input type="checkbox" />
+                                <span></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aderezo Signature Sauce</th>
+                        <td>$10.00</td>
+                        <td>
+                            <div class="check-ico">
+                                <input type="checkbox" />
+                                <span></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aderezo BBQ</th>
+                        <td>$10.00</td>
+                        <td>
+                            <div class="check-ico">
+                                <input type="checkbox" />
+                                <span></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aderezo Aguacate</th>
+                        <td>$10.00</td>
+                        <td>
+                            <div class="check-ico">
+                                <input type="checkbox" />
+                                <span></span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total:</td>
+                        <td>$180</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="ki-btn ki-btn__primary btn--medium btn--dfl mx-1" data-dismiss="modal">Cancelar</button>
+        <button id="agregaIngrediente" type="button" class="ki-btn ki-btn__primary btn--medium mx-1">Agregar</button>
+      </div>
+    </div>
+  </div>
+</div>

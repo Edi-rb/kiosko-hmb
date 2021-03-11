@@ -1,0 +1,44 @@
+$nav-menu: '.ki-navmenu';
+
+#{$nav-menu}{
+    .navbar-toggler {
+        background-color: $purple-ki;
+    }
+}
+
+.ki-navmenu-side {
+    background: $purple-ki;
+    border-radius: 50px 0 0 50px;
+    height: 70%;
+	position: fixed;
+	right: 0;
+    width: 20%;
+    z-index: 5;
+    top: 15%;
+    .navbar-nav {
+        height: 100%;
+        padding: 2.5rem 0;
+        .nav-item {
+            height: calc(100% / 5);
+            
+            .nav-link {
+                height: 100%;
+                vertical-align: middle;
+                line-height: 3.5;
+                padding-left: 2rem;
+                font-size: 2rem;
+                font-weight: 700;
+                color: #fff;
+            }
+            &:hover,
+            &:active {
+                background: #fff;
+                
+                .nav-link {
+                    color: $orange-ki;
+                }
+            }
+        }
+
+    }
+}

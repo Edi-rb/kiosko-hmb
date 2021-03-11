@@ -1,0 +1,10 @@
+#papas2,
+#papas3 {
+	display: none;
+}
+
+#switchpapas {
+	&:before {
+		height: 0;
+	}
+}

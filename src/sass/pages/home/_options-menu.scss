@@ -1,0 +1,57 @@
+$ki-premenu : '.ki-premenu';
+$ki-preitem : '.ki-preitem';
+
+#{$ki-premenu}{
+	margin-top: 2rem;
+	&__item {
+
+	}
+
+}
+
+#{$ki-preitem}{
+	background-color: #8beeff;
+	padding: .5rem;
+	height: 100%;
+	.ki-bg--yellow {
+		background: #FFEB3B;
+		color: #571881;
+		height: 100%;
+		// cursor: pointer;
+	}
+	&__name {
+		background: #fbe018;
+		color: #571881;
+		font-size: 1.6rem;
+		font-weight: 800;
+		text-align: center;
+		text-transform: uppercase;
+		padding: .5rem;
+		margin-bottom: .3rem;
+	}
+	&__img {
+		
+		.ki-pic {
+			background: {
+				image: url('../assets/images/home/opciones-menu/h2.jpg');
+				size: cover;
+			}
+			height: 13rem;
+		}
+		.ki-description {
+			background: #FFEB3B;
+			color: #571881;
+			padding: .5rem;
+			font-weight: 600;
+			text-align: center;	
+		}
+	}
+	&__description {
+		background: #FFEB3B;
+		color: #571881;
+		padding: .5rem;
+		font-weight: 600;
+		text-align: center;	
+	}
+}
+  

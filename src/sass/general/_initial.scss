@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: $color-white;
+    // background: $color-black;
+    font-family: $font-family-montserrat;
+    height: 100%;
+    background-color: #5bcdf5;
+}
+
+.row .row {
+	margin: 0;
+}
+
+.card-body {
+    padding: 1rem;
+}

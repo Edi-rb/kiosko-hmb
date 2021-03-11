@@ -1,0 +1,30 @@
+$detalle: '.ki-detallesprod';
+
+#{$detalle}{
+	
+	&__titulo {
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+	}
+    &__seleccion {
+        border-top: 1px solid #fff;
+        margin-top: 3rem;
+        padding: 1.5rem 0;
+        border-bottom: 1px solid;        
+    }
+	p {
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }    
+}
+
+.ki-productosin {
+    &__cambiar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

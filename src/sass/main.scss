@@ -1,0 +1,50 @@
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/datatables.net-bs4/css/dataTables.bootstrap4';
+@import 'node_modules/datatables.net-buttons-bs4/css/buttons.bootstrap4';
+
+@import "fonts";
+@import "variables";
+
+@import "general/animaciones";
+
+@import "components/buttons";
+@import "components/datatables";
+
+@import "pages/layout/header";
+@import "pages/layout/navmenu";
+@import "pages/layout/cat-menu";
+
+@import "pages/login";
+@import "general/initial";
+
+@import "pages/home/modal-identifica";
+@import "pages/home/container-home";
+@import "pages/home/sidebar";
+@import "pages/home/promotions";
+@import "pages/home/options-menu";
+
+@import "pages/menu/container-menu";
+@import "pages/menu/tabs-menu";
+@import "pages/menu/card-productos";
+@import "pages/menu/car-section";
+
+@import "pages/pedidos-perfil/container";
+@import "pages/pedidos-perfil/perfil-detalles";
+@import "pages/pedidos-perfil/informacion";
+
+@import "pages/producto/producto-container";
+@import "pages/producto/producto-image";
+@import "pages/producto/detalles";
+@import "pages/producto/pedido";
+@import "pages/producto/carousel-cambio";
+@import "pages/producto/modal-inextra";
+@import "pages/producto/cambia-combo";
+@import "pages/producto/cambia-bebida";
+@import "pages/producto/papas-cambio";
+
+@import "pages/car/list-car";
+
+@import "pages/layout/footer";
+	
+@import "resposive-cusom";

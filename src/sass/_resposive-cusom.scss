@@ -1,0 +1,94 @@
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+	// General
+	body {
+		height: auto;
+	}
+	
+	// Header
+	.ki-header .ki-header--menu .col-lg-2 {
+		order: 1;
+	}
+
+	.ki-header .ki-header--menu .col-lg-1 {
+		order: 2;
+	}
+
+	.ki-header .ki-header--menu .col-lg-9 {
+		order: 3;
+		height: 42px;
+	}
+
+	// Nuestro Menu
+	.ki-menu__tabs .nav-link {
+		flex: auto;
+		width: 50%;
+	}
+	.ki-tabsmenu__item .ki-card {
+		justify-content: flex-start;
+		padding: .5rem 1rem !important;
+		flex-direction: row;
+		height: auto;
+		flex-wrap: wrap;
+	}
+	.ki-tabsmenu__img {
+		width: 32px;
+		height: 32px;
+		margin: 0 1rem 0 0;
+	}
+	.ki-tabsmenu__item .ki-card span {
+		display: inline;
+	}
+
+	// Single Producto Modal Change
+
+	.ki-selProducto .ki-selProducto__item > .d-flex {
+		flex-direction: column;
+	}
+
+	.ki-boxProducto {
+		margin-bottom: 1rem;
+	}
+
+	.ki-boxProducto__img {
+		width: 40%;
+		margin: 0 auto;
+	}
+	.cambiar-tipoBebida__opciones label {
+		font-size: .88rem;
+	}
+}
+
+@media (max-width: 991.98px) {
+	// Nuestro Menu
+	.dm-auto {
+		height: auto !important;
+	}
+	.ki-menu__tabs {
+		flex-direction: row !important;
+		height: auto !important;
+	}
+	.modal-cambiar .modal-dialog{
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.ki-promotions .ki-promotions__banner{
+		order: 2;
+		text-align: center;
+
+	}
+	.ki-promotions .ki-promotions__promotions {
+		order: 1;
+		margin-bottom: 2rem;
+	}
+
+	.pedidos-perfil__list .sel-order {
+		font-size: .98rem;
+	}
+}

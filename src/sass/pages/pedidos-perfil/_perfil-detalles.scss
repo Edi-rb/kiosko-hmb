@@ -1,0 +1,72 @@
+$pedidos-perfil : '.pedidos-perfil';
+// $orange-pic: #ff8b00;
+
+#{$pedidos-perfil}{
+
+}
+
+$perfil : '.perfil';
+
+#{$perfil}{
+	&__name {
+		display: inline-block;
+		color: $color-primary;
+		font-weight: 700;
+		font-size: 1.2rem;
+		margin: .5rem 0;		
+	}
+	&__photo {
+		height: 35%;
+		background-color: $yellow-ki;
+		width: 86%;
+		position: relative;
+		margin-top: 1.2rem;
+		.bg-icons {	
+		text-align: center;		
+			background: {
+				size: 100px;
+				repeat: no-repeat;
+				position:   top 10px left 10px,
+							top 10px right 10px,
+							bottom 20px right 30px,
+							bottom 10px left 10px;
+				image: url('../assets/images/icons/icon-cali.svg'),
+				url('../assets/images/icons/icon-cali.svg'),
+				url('../assets/images/icons/icon-cali.svg'),
+				url('../assets/images/icons/icon-cali.svg');
+			}
+			height: 100%;
+			.ki-photo {
+				width: auto;
+				position: absolute;
+				// bottom: -1rem;
+				right: -1rem;
+				height: auto;
+				top: 2.8rem;
+				max-height: 356px;
+			}
+		}
+	}
+	&__descripcion {
+		.calicoins-info {
+			margin-top: 6rem;
+			padding: 2rem 0;
+			text-align: center;
+			margin-bottom: 1rem;
+			background-color: #fbe018;
+			.ico-cali {
+				width: 180px;
+			}
+			.numero-cali {
+				font-size: 1.2rem;
+				font-weight: 800;
+				color: $purple-ki;
+				display: block;
+				padding: .5rem 0;				
+			}
+		}
+		.nuevo-pedido {
+			text-align: center;
+		}
+	}
+}

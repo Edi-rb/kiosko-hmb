@@ -1,0 +1,12 @@
+$container : '.pedidos-perfil';
+
+#{$container}{
+	&__perfil {
+		background-color: #ffff;
+	}
+	.ki-bg {
+		&--green {
+			background-color: $green-ki;
+		}
+	}
+}

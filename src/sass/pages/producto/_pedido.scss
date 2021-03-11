@@ -1,0 +1,59 @@
+$prod-pedido: '.pedido-data';
+
+#{$prod-pedido}{
+	margin-top: 2rem;
+	&__item {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    &__cantidad {
+        display: flex;
+        justify-content: space-between;
+        .input-number {
+            width: 80px;
+            padding: 0 12px;
+            vertical-align: top;
+            text-align: center;
+            outline: none; 
+
+        }
+
+        .input-number,
+        .input-number-decrement,
+        .input-number-increment {
+            border: 1px solid $orange-ki;
+            border-radius: 10px;
+            height: 40px;
+            user-select: none;   
+        }
+
+        .input-number-decrement,
+        .input-number-increment {
+            display: inline-block;
+            line-height: 45px;
+            background: #f1f1f1;
+            color: #444;
+            text-align: center;
+            font-weight: bold;
+            cursor: pointer;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: #ff8b00;
+            color: #fff;
+            &:active {
+                background: #ddd;
+            }        
+        }
+
+        .input-number-decrement {
+            border-right: none;  
+        }
+
+        .input-number-increment {
+            border-left: none;  
+        }   
+        
+        
+    }
+}

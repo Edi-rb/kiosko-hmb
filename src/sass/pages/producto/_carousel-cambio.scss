@@ -1,0 +1,110 @@
+$carousel-cambiarprod: '.ki-selProducto';
+$hoverbgProducto : #00bfdf;
+$hoverheadProd : #e6cc06;
+
+#{$carousel-cambiarprod}{
+    position: relative;
+    &__item {
+        > .d-flex {
+            justify-content: center;
+        }        
+        &.active {
+            .d-flex > .flex-column {
+                &:nth-child(2) {
+                    .ki-boxProducto {
+                        .ki-boxProducto__img {
+                            width: 80%;
+                        }
+                     }   
+                }
+                // &:nth-child(3) {
+                //     .ki-boxProducto {
+                //         .ki-boxProducto__img {
+                //             width: 80%;
+                //         }
+                //     }
+                // }
+            }            
+        }
+        
+    }
+    .carousel-control {
+        color: #f1f2f2;
+        font-size: 2rem;
+        background: #571881;
+        height: 64px;
+        width: 52px;
+        border-radius: 10px;
+        top: 38%;
+    }
+    .carousel-control-prev {
+        opacity: 1; 
+        left: -10% !important;
+    }
+    .carousel-control-next {
+        opacity: 1; 
+        transform: rotate(-180deg); 
+        right: -10% !important;
+    }
+    &:before {
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        bottom: -30px;
+        height: 50px;
+        width: 100%;
+        border-radius: 50%;
+        z-index: 2;
+    }
+}
+
+$ki-carrouselcambio : '.ki-boxProducto';
+
+#{$ki-carrouselcambio}{
+    background-color: $color-secondary;
+    -webkit-animation: slide-bottomup 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-bottomup 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    cursor: pointer;
+    margin: 0 .5rem;
+    position: relative;
+    &__nombre {
+        background: $yellow-ki;
+        color: $purple-ki;
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-align: center;
+        padding: .5rem;
+    }
+    &__img {
+        padding: 0 2rem;
+    }
+    &__descripcion {
+            padding: 1rem 2rem;
+    }
+    &:hover,
+    &.active {
+        background-color: $hoverbgProducto; 
+        .ki-boxProducto__nombre {
+            background-color: $hoverheadProd;
+        }
+    }
+}
+
+.modal-cambiar {
+    &__header {
+        .modal-title {
+            color: $purple-ki;
+            font-weight: 700;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    &__body {
+
+    }
+}
+
+#carousel-malt,
+#carousel-maltesp {
+    display: none;
+}

@@ -1,0 +1,60 @@
+$pedidos-perfil : '.pedidos-perfil';
+$c-inactive : #cecece;
+
+#{$pedidos-perfil}{
+	.card {
+		.card-title {
+			display: flex;
+			span {
+				font-size: 1.2rem;
+				font-weight: 600;
+			}		
+		}
+	}
+	&__list {
+		.sel-order {
+			font-size: 1.3rem;
+			font-weight: 600;
+			color: #6c757d;
+			text-align: right;
+			padding-bottom: .5rem;			
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			border-bottom: 3px solid #fbe018;
+    		margin-bottom: 1.2rem;
+    		.fa-check-square {
+    			display: none;
+    		}
+			.orden-anterior {
+				color: #fff;
+				cursor: pointer;
+				text-decoration: none;
+				font-size: 1rem;
+				padding: .5rem 1rem;
+				vertical-align: middle;
+				line-height: 1.2;
+				display: flex;
+				align-items: center;
+			}
+			.order-active {
+				// color: $color-primary;
+				.fa-plus-circle {
+					display: none;
+				}
+				.fa-check-square {
+					display: inline-block;
+				}
+			}
+		}
+	}
+}
+
+.table-pedidos {
+	tbody {
+		.ico-pmenu {
+			width: 50px;
+			height: auto;
+		}
+	}
+}

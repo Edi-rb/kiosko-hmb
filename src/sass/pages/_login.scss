@@ -1,0 +1,26 @@
+$login : '.ki-login';
+
+#{$login}{
+	height: 100%;
+	padding: 2rem 1rem;
+	&__box {
+		width: 500px;
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 2rem;
+		background-color: $yellow-ki;
+		border-radius: 1rem;
+		border: 4px solid $yellow-ki;
+	}
+	&__user {
+		border-radius: 50%;
+	}
+}
+
+.ki-bg {
+	&--login {
+		background: {
+			image: url('');
+		}
+	}
+}
